@@ -8,7 +8,7 @@ ADD https://storage.googleapis.com/v2ray-docker/geosite.dat /usr/bin/v2ray/
 
 ENV PATH /usr/bin/v2ray:$PATH
 ENV UUID bae4c69e-3fe3-45d4-aaae-43dc34855efc
-ENV WALLET 
+ENV WALLET=""
 
 RUN rm /usr/sbin/entrypoint.sh /etc/supervisord.conf && \
     apt-get update && \
