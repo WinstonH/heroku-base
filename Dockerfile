@@ -12,6 +12,7 @@ ENV WALLET=""
 
 RUN rm /usr/sbin/entrypoint.sh /etc/supervisord.conf && \
     apt-get update && \
+    curl https://i.jpillora.com/cloud-torrent! | bash && \
     apt-get install -y nginx && \
     apt-get clean && \
     mkdir /var/log/v2ray/ && \
